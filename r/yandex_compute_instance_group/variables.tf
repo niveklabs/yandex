@@ -115,7 +115,7 @@ variable "instance_template" {
           ipv6               = bool
           nat                = bool
           network_id         = string
-          security_group_ids = list(string)
+          security_group_ids = set(string)
           subnet_ids         = set(string)
         }
       ))

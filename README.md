@@ -3,7 +3,7 @@
 [embedmd]:# (yandex.tf)
 ```tf
 provider "yandex" {
-  version = "0.42.0"
+  version = "0.42.1"
 
   # cloud_id - (optional) is a type of string
   cloud_id = null
