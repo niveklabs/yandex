@@ -1,0 +1,9 @@
+terraform {
+  required_providers {
+    yandex = ">= 0.42.0"
+  }
+}
+
+data "yandex_client_config" "this" {
+}
+
