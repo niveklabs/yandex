@@ -66,7 +66,7 @@ variable "config" {
 }
 
 variable "database" {
-  description = "nested mode: NestingSet, min items: 1, max items: 0"
+  description = "nested mode: NestingList, min items: 1, max items: 0"
   type = set(object(
     {
       extension = set(object(
@@ -109,7 +109,7 @@ variable "timeouts" {
 }
 
 variable "user" {
-  description = "nested mode: NestingSet, min items: 1, max items: 0"
+  description = "nested mode: NestingList, min items: 1, max items: 0"
   type = set(object(
     {
       grants   = list(string)

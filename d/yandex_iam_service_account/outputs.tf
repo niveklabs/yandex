@@ -23,6 +23,11 @@ output "name" {
   value       = data.yandex_iam_service_account.this.name
 }
 
+output "service_account_id" {
+  description = "returns a string"
+  value       = data.yandex_iam_service_account.this.service_account_id
+}
+
 output "this" {
   value = yandex_iam_service_account.this
 }

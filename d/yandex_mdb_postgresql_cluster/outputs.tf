@@ -14,7 +14,7 @@ output "created_at" {
 }
 
 output "database" {
-  description = "returns a set of object"
+  description = "returns a list of object"
   value       = data.yandex_mdb_postgresql_cluster.this.database
 }
 
@@ -64,7 +64,7 @@ output "status" {
 }
 
 output "user" {
-  description = "returns a set of object"
+  description = "returns a list of object"
   value       = data.yandex_mdb_postgresql_cluster.this.user
 }
 
